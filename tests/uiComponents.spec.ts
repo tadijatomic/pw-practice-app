@@ -151,7 +151,7 @@ test("dialogs", async ({ page }) => {
 });
 
 test("web tables", async ({ page }) => {
-  await page.getByText("Modal & Overlays").click();
+  await page.getByText("Tables & Data").click();
   await page.getByText("Smart Table").click();
 
   //1 get the row by any test in this row
